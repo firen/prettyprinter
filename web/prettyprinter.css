@@ -1,0 +1,21 @@
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333;
+}
+
+#target {
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  padding: 10px;
+  font-size: 1em;
+  font-family: Lucida Console;
+}
