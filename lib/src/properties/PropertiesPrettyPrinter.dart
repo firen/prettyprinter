@@ -35,7 +35,7 @@ class PropertiesPrettyPrinter {
         case EntityTypes.COMMENT:
           TableCellElement propertyDivElement = new TableCellElement();
           propertyDivElement.classes = ["line_content"];
-          propertyDivElement.innerHtml = "<span style='color:green'>${current.comment}</span>";
+          propertyDivElement.innerHtml = "<span style='color:green;font-style:italic'>${current.comment}</span>";
           lineElement.append(propertyDivElement);
           break;
       }
